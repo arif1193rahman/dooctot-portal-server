@@ -68,7 +68,7 @@ async function run() {
       res.json(result);
     });
 
-    // input file backend theke aner jonnooooo
+    // input file backend theke aner jonno
     app.get("/doctors", async (req, res) => {
       const cursor = doctorsCollection.find({});
       const doctors = await cursor.toArray();
